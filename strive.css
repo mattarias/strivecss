@@ -372,7 +372,7 @@ template {
   font-weight: normal;
   font-size: 16px;
   line-height: 140%;
-  color: #202537;
+  color: #575C69;
 }
 .parragraph-16.bold {
   font-weight: bold;
@@ -392,6 +392,14 @@ template {
 }
 
 .max-lines-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.max-lines-3 {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -421,4 +429,8 @@ template {
 
 .p-16 {
   padding: 16px;
+}
+
+.border-radius-medium {
+  border-radius: 4px;
 }

@@ -4,7 +4,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-	color: $color-neutral-1200;
+	color: $color-neutral-900;
 	&.bold{
 		font-weight: bold;
 		color: $color-neutral-1200;
@@ -24,6 +24,14 @@
 }
 
 .max-lines-2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.max-lines-3{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
