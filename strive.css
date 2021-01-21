@@ -433,6 +433,10 @@ template {
   padding: 8px;
 }
 
+.p-12 {
+  padding: 12px;
+}
+
 .p-16 {
   padding: 16px;
 }
