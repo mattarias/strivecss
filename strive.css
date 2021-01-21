@@ -51,6 +51,14 @@
   font-weight: bold;
 }
 
+.max-lines-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .mt-8 {
   margin-top: 8px;
 }

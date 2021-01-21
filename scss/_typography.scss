@@ -22,3 +22,11 @@
 		font-weight: bold;
 	}
 }
+
+.max-lines-2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
