@@ -475,3 +475,6 @@ template {
 .d-flex.ai-center {
   align-items: center;
 }
+.d-flex.jc-center {
+  justify-content: center;
+}
