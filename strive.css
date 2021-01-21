@@ -456,3 +456,6 @@ template {
 .d-flex {
   display: flex;
 }
+.d-flex.ai-center {
+  align-items: center;
+}

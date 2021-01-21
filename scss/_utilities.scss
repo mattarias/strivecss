@@ -40,4 +40,7 @@
 
 .d-flex{
     display: flex;
+    &.ai-center{
+        align-items: center;
+    }
 }
