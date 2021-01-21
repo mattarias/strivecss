@@ -448,3 +448,11 @@ template {
 .border-basic {
   border: 1px solid #ECEDEE;
 }
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
