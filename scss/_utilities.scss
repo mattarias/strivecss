@@ -70,4 +70,7 @@
     &.jc-space-between{
         justify-content: space-between;
     }
+    &.fd-column{
+        flex-direction: column;
+    }
 }
