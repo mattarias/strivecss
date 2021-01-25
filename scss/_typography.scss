@@ -30,6 +30,9 @@
     font-size: 14px;
     line-height: 140%;
 	color: $color-neutral-900;
+	&.semibold{
+		font-weight: 600;
+	}
 	&.bold{
 		font-weight: bold;
 	}
