@@ -340,6 +340,20 @@ template {
 
 @font-face {
   font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI-Light.woff2") format("woff2"), url("../fonts/SegoeUI-Light.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUI-Semilight.woff2") format("woff2"), url("../fonts/SegoeUI-Semilight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
   src: url("../fonts/SegoeUI.woff2") format("woff2"), url("../fonts/SegoeUI.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -347,16 +361,9 @@ template {
 }
 @font-face {
   font-family: "Segoe UI";
-  src: url("../fonts/SegoeUI-BoldItalic.woff2") format("woff2"), url("../fonts/SegoeUI-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Segoe UI";
-  src: url("../fonts/SegoeUI-Italic.woff2") format("woff2"), url("../fonts/SegoeUI-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
+  src: url("../fonts/SegoeUI-Semibold.woff2") format("woff2"), url("../fonts/SegoeUI-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
   font-display: swap;
 }
 @font-face {
@@ -366,6 +373,25 @@ template {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/SegoeUIBlack.woff2") format("woff2"), url("../fonts/SegoeUIBlack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+.heading-20 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  color: #202537;
+}
+.heading-20.semibold {
+  font-weight: 600;
+}
+
 .parragraph-16 {
   font-family: "Segoe UI";
   font-style: normal;
@@ -477,4 +503,7 @@ template {
 }
 .d-flex.jc-center {
   justify-content: center;
+}
+.d-flex.jc-space-between {
+  justify-content: space-between;
 }

@@ -1,5 +1,23 @@
 @font-face {
     font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-Light.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI-Semilight.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
     src: url('../fonts/SegoeUI.woff2') format('woff2'),
         url('../fonts/SegoeUI.woff') format('woff');
     font-weight: normal;
@@ -9,19 +27,10 @@
 
 @font-face {
     font-family: 'Segoe UI';
-    src: url('../fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
-        url('../fonts/SegoeUI-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Segoe UI';
-    src: url('../fonts/SegoeUI-Italic.woff2') format('woff2'),
-        url('../fonts/SegoeUI-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+    src: url('../fonts/SegoeUI-Semibold.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -35,73 +44,10 @@
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Light.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Light.woff') format('woff');
-    font-weight: 300;
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUIBlack.woff2') format('woff2'),
+        url('../fonts/SegoeUIBlack.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-LightItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-MediumItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('../fonts/Ubuntu-Italic.woff2') format('woff2'),
-        url('../fonts/Ubuntu-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
     font-display: swap;
 }
