@@ -1,0 +1,36 @@
+.button {
+    display: inline-flex;
+    background-color: $enmedio-orange-500;
+    color: white;
+    align-items: center;
+    width: auto;
+    border: none;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 2px;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none !important;
+    padding: 0px 22px;
+    max-height: 40px;
+    user-select: none;
+    transition: all 0.2s;
+    height: 40px;
+    text-rendering: geometricPrecision;
+    .material-icons {
+        line-height: normal;
+        margin-right: 6px;
+        user-select: none;
+        &:only-child {
+            margin-right: 0px;
+        }
+    }
+    &:hover {
+        background-color: darken($enmedio-orange-500, 4);
+    }
+}
