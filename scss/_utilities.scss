@@ -67,6 +67,22 @@
     padding: 0 8px;
 }
 
+.pb-6{
+    padding-bottom: 6px;
+}
+
+.pb-8{
+    padding-bottom: 8px;
+}
+
+.pb-12{
+    padding-bottom: 12px;
+}
+
+.pb-24{
+    padding-bottom: 24px;
+}
+
 
 // Borders
 
@@ -76,6 +92,10 @@
 
 .border-basic{
     border: 1px solid $color-neutral-100;
+}
+
+.border-bottom{
+    border-bottom: 1px solid $color-neutral-100;
 }
 
 .d-block{
