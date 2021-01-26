@@ -149,6 +149,17 @@
         top: 50%;
         transform: translate(-50%, -50%);
         width: 500px;
+        &.modal-close{
+            color: $color-neutral-000;
+            cursor: pointer;
+            display: flex;
+                align-items: flex-start;
+                justify-content: center;
+            height: 36px;
+            position: absolute;
+            right: -42px;
+            width: 36px;
+        }
     }
     .overlay{
         background-color: rgba($color-neutral-1300, .8);
