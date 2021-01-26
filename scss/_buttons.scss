@@ -30,6 +30,16 @@
             margin-right: 0px;
         }
     }
+    &.tertiary, &.ghost{
+        background-color: transparent;
+        border: none;
+        color: $color-neutral-700;
+        &.delete{
+            &:hover{
+                color: red;
+            }
+        }
+    }
     &:hover {
         background-color: darken($enmedio-orange-500, 4);
     }
