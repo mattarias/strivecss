@@ -149,7 +149,7 @@
         top: 50%;
         transform: translate(-50%, -50%);
         width: 500px;
-        &.modal-close{
+        .modal-close{
             color: $color-neutral-000;
             cursor: pointer;
             display: flex;
