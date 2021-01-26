@@ -34,10 +34,8 @@
         background-color: transparent;
         border: none;
         color: $color-neutral-700;
-        &.delete{
-            &:hover{
-                color: red;
-            }
+        &:hover{
+            background-color: $color-neutral-100;
         }
     }
     &:hover {
