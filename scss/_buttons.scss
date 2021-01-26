@@ -35,6 +35,7 @@
         border: none;
         color: $color-neutral-700;
         &:hover{
+            background-color: transparent;
             color: $color-neutral-900;
             text-decoration: underline;
         }
