@@ -124,6 +124,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 30;
     .modal-content{
         background-color: $color-neutral-000;
         border-radius: 4px;
