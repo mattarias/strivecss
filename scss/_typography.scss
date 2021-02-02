@@ -60,6 +60,9 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
+	&.on-14{
+		min-height: 60px;
+	}
 	&.on-16{
 		min-height: 69px;
 	}
